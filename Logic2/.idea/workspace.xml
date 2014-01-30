@@ -6,13 +6,15 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/DeductionTransformator.java" changelist="6939bed7-6ed0-438e-81ee-91ad7791b3b1" time="1387176868188" ignored="false" />
     <file path="/Checker.java" changelist="6939bed7-6ed0-438e-81ee-91ad7791b3b1" time="1387175706343" ignored="false" />
-    <file path="/DeductionTransformer.java" changelist="6939bed7-6ed0-438e-81ee-91ad7791b3b1" time="1387723822740" ignored="false" />
+    <file path="/DeductionTransformer.java" changelist="6939bed7-6ed0-438e-81ee-91ad7791b3b1" time="1391078653776" ignored="false" />
     <file path="/a0.in" changelist="6939bed7-6ed0-438e-81ee-91ad7791b3b1" time="1387164894829" ignored="false" />
-    <file path="/Configuration.java" changelist="6939bed7-6ed0-438e-81ee-91ad7791b3b1" time="1387718290355" ignored="false" />
+    <file path="/Configuration.java" changelist="6939bed7-6ed0-438e-81ee-91ad7791b3b1" time="1391078595564" ignored="false" />
     <file path="/fragment.java" changelist="6939bed7-6ed0-438e-81ee-91ad7791b3b1" time="1387165863657" ignored="false" />
-    <file path="/ProofChecker.java" changelist="6939bed7-6ed0-438e-81ee-91ad7791b3b1" time="1387723386549" ignored="false" />
+    <file path="/ProofChecker.java" changelist="6939bed7-6ed0-438e-81ee-91ad7791b3b1" time="1391078896924" ignored="false" />
     <file path="/Vertex.java" changelist="6939bed7-6ed0-438e-81ee-91ad7791b3b1" time="1387723338410" ignored="false" />
     <file path="/a1.in" changelist="6939bed7-6ed0-438e-81ee-91ad7791b3b1" time="1387723545961" ignored="false" />
+    <file path="/a2.in" changelist="6939bed7-6ed0-438e-81ee-91ad7791b3b1" time="1391078935097" ignored="false" />
+    <file path="/a.dummy" changelist="6939bed7-6ed0-438e-81ee-91ad7791b3b1" time="1391078844184" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +29,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -61,7 +64,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -71,13 +73,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DeductionTransformer.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DeductionTransformer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DeductionTransformer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="62" selection-start="590" selection-end="590" vertical-scroll-proportion="0.29356357">
-              <folding>
-                <element signature="e#305#311#0" expanded="true" />
-              </folding>
+            <state line="36" column="12" selection-start="1227" selection-end="1255" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FastScanner.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FastScanner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="4" selection-start="84" selection-end="126" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a.out" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/a.out">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="44" selection-start="2193" selection-end="2193" vertical-scroll-proportion="1.3189656">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,19 +109,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="a1.in" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/a1.in">
+      <file leaf-file-name="a3.in" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/a3.in">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
+            <state line="1" column="1" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="a.out" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/a.out">
+      <file leaf-file-name="Configuration.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Configuration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="47" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
+            <state line="4" column="55" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a2.in" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/a2.in">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="1" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeductionChecker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DeductionChecker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="86" column="24" selection-start="3381" selection-end="3385" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,42 +163,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeductionChecker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DeductionChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="33" selection-start="3348" selection-end="3348" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Checker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Checker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="8" selection-start="1811" selection-end="1811" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProofChecker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProofChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="185" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Configuration.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Configuration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="55" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -180,11 +180,12 @@
         <option value="$PROJECT_DIR$/a0.in" />
         <option value="$PROJECT_DIR$/ac.out" />
         <option value="$PROJECT_DIR$/src/Vertex.java" />
-        <option value="$PROJECT_DIR$/src/ProofChecker.java" />
-        <option value="$PROJECT_DIR$/src/Configuration.java" />
         <option value="$PROJECT_DIR$/a.out" />
         <option value="$PROJECT_DIR$/a1.in" />
         <option value="$PROJECT_DIR$/src/DeductionTransformer.java" />
+        <option value="$PROJECT_DIR$/src/ProofChecker.java" />
+        <option value="$PROJECT_DIR$/a2.in" />
+        <option value="$PROJECT_DIR$/src/Configuration.java" />
       </list>
     </option>
   </component>
@@ -220,8 +221,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -256,6 +255,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,9 +270,9 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -280,6 +281,9 @@
     </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="Configuration" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Dima\Инфа\Java progs\Logic2" />
     </key>
   </component>
   <component name="RunManager" selected="Application.DeductionTransformer">
@@ -454,7 +458,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -470,11 +474,11 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14993565" sideWeight="0.9221141" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.077885956" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14993565" sideWeight="0.6815021" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31849793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -539,13 +543,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DeductionChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="1" selection-start="2666" selection-end="2666" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Checker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="8" selection-start="1811" selection-end="1811" vertical-scroll-proportion="0.0">
@@ -567,27 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FastScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="84" selection-end="126" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Checker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="8" selection-start="1811" selection-end="1811" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DeductionChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="33" selection-start="3348" selection-end="3348" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_13/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="138" column="0" selection-start="5312" selection-end="5312" vertical-scroll-proportion="0.3777174">
@@ -602,16 +578,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/FastScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="4" selection-start="84" selection-end="126" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="8" selection-start="1811" selection-end="1811" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ProofChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="185" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.0">
+        <state line="55" column="22" selection-start="1910" selection-end="1910" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a2.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="1" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a3.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="1" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DeductionChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="24" selection-start="3381" selection-end="3385" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DeductionTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="12" selection-start="1227" selection-end="1255" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="55" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+        <state line="4" column="55" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -619,13 +637,6 @@
     <entry file="file://$PROJECT_DIR$/a0.in">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="1" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a1.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -639,17 +650,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/a.out">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="47" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
+        <state line="36" column="44" selection-start="2193" selection-end="2193" vertical-scroll-proportion="1.3189656">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DeductionTransformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="62" selection-start="590" selection-end="590" vertical-scroll-proportion="0.29356357">
-          <folding>
-            <element signature="e#305#311#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

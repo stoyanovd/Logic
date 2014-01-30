@@ -26,12 +26,14 @@ public class ProofChecker {
             raw = raw.substring(1);
         String[] tempStrings = raw.split("\\|-");
         for (int i = 0; i < tempStrings.length; i++)
-            System.out.println("split |-   :" + tempStrings[i]);
+            if(Configuration.DEBUG_MODE)
+                System.out.println("split |-   :" + tempStrings[i]);
         beta = tempStrings[1];                                                      //had you proved   beta???
         String temp = tempStrings[0];
         tempStrings = temp.split(",");
         for (int i = 0; i < tempStrings.length; i++)
-            System.out.println("split ,   :" + tempStrings[i]);
+            if(Configuration.DEBUG_MODE)
+                System.out.println("split ,   :" + tempStrings[i]);
         for (int i = 0; i < tempStrings.length; i++) {
             Vertex vertex = new Vertex(tempStrings[i]);
             checker.assumptions.add(vertex.hash);

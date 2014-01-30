@@ -26,14 +26,16 @@ public class DeductionTransformer {
             raw = raw.substring(1);
         String[] tempStrings = raw.split("\\|-");
         for (int i = 0; i < tempStrings.length; i++)
-            System.out.println("split |-   :" + tempStrings[i]);
+            if(Configuration.DEBUG_MODE)
+                System.out.println("split |-   :" + tempStrings[i]);
         if (tempStrings.length < 2 || null == tempStrings[0] || "".equals(tempStrings[0]) || null == tempStrings[1] || "".equals(tempStrings[1]))
             return false;
         beta = tempStrings[1];
         String temp = tempStrings[0];
         tempStrings = temp.split(",");
         for (int i = 0; i < tempStrings.length; i++)
-            System.out.println("split ,   :" + tempStrings[i]);
+            if(Configuration.DEBUG_MODE)
+                System.out.println("split ,   :" + tempStrings[i]);
         if (tempStrings.length < 1)
             return false;
         alpha = "(" + tempStrings[tempStrings.length - 1] + ")";
@@ -83,18 +85,17 @@ public class DeductionTransformer {
 
     DeductionTransformer() {
         try {
-            boolean badStart = false;
             if (!(new ProofChecker(Configuration.FILE_FOR_DEDUCTION, Configuration.FILE_FOR_DEDUCTION_RESULT)).run())
-                badStart = true;
-            out = new PrintWriter(new File(Configuration.FILE_FOR_DEDUCTION_RESULT));
+                return;
 
-            File file = new File(Configuration.FILE_FOR_DEDUCTION);
             goodStart = false;
             inputStrings = new ArrayList<String>();
-            if (!file.exists())
+            out = new PrintWriter(new File(Configuration.FILE_FOR_DEDUCTION_RESULT));
+            File file = new File(Configuration.FILE_FOR_DEDUCTION);
+            if (!file.exists()) {
                 out.println("Файл не найден.");
-            else if (badStart) {
-                out.println("Исходный вывод некоррректен.");
+                out.close();
+                return;
             } else {
                 in = new FastScanner(file);
                 goodStart = true;
@@ -107,15 +108,15 @@ public class DeductionTransformer {
             }
             resultStrings = new ArrayList<String>(inputStrings);
             while (goodStart) {
-                System.out.println("BIG_ITERATION");
+                if(Configuration.DEBUG_MODE)
+                    System.out.println("BIG_ITERATION");
                 inputStrings = new ArrayList<String>();
                 String[] temp;
-                for(int i = 0; i < resultStrings.size(); i++)
-                {
+                for (int i = 0; i < resultStrings.size(); i++) {
                     temp = resultStrings.get(i).split("\\s+");
-                    for(int j = 0; j < temp.length; j++)
-                    {
-                        System.out.println("new temp - " + temp[j]);
+                    for (int j = 0; j < temp.length; j++) {
+                        if(Configuration.DEBUG_MODE)
+                            System.out.println("new temp - " + temp[j]);
                         inputStrings.add(temp[j]);
                     }
                 }
@@ -151,7 +152,7 @@ public class DeductionTransformer {
     public static void main(String[] arg) {
         long time = System.currentTimeMillis();
         new DeductionTransformer();
-        if (Configuration.DEBUG_MODE)
+        //if (Configuration.DEBUG_MODE)
             System.out.println("time = " + (System.currentTimeMillis() - time));
     }
 }
