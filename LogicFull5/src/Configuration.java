@@ -17,3 +17,6 @@ public class Configuration {
     public static final String FILE_OUT = "a.out";
     public static final String FILE_SERVICE = "service.out";
 }
+
+
+//TODO           time issues   -  substring

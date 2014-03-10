@@ -534,6 +534,10 @@ public class AxiomsList {
         if (!"->".equals(v.operation) || !"=".equals(v.left.operation) || !"=".equals(v.right.operation) ||
                 !"'".equals(v.right.left.operation) || !"'".equals(v.right.right.operation))
             return false;
+        if(!v.left.left.equals(new Vertex("a")))
+            return false;
+        if(!v.left.right.equals(new Vertex("b")))
+            return false;
         return (v.left.left.equals(v.right.left.right) && v.left.right.equals(v.right.right.right));
     }
 
@@ -546,6 +550,14 @@ public class AxiomsList {
         if (!"->".equals(v.operation) || !"=".equals(v.left.operation) || !"->".equals(v.right.operation) ||
                 !"=".equals(v.right.left.operation) || !"=".equals(v.right.right.operation))
             return false;
+
+        if(!v.left.left.equals(new Vertex("a")))
+            return false;
+        if(!v.left.right.equals(new Vertex("b")))
+            return false;
+        if(!v.right.left.right.equals(new Vertex("c")))
+            return false;
+
         return (v.left.left.equals(v.right.left.left) && v.left.right.equals(v.right.right.left) && v.right.left.right.equals(v.right.right.right));
     }
 
@@ -557,6 +569,14 @@ public class AxiomsList {
         if (!"->".equals(v.operation) || !"=".equals(v.left.operation) || !"=".equals(v.right.operation) ||
                 !"'".equals(v.left.left.operation) || !"'".equals(v.left.right.operation))
             return false;
+
+
+        if(!v.left.left.right.equals(new Vertex("a")))
+            return false;
+        if(!v.left.right.right.equals(new Vertex("b")))
+            return false;
+
+
         return (v.left.left.right.equals(v.right.left) && v.left.right.right.equals(v.right.right));
     }
 
@@ -568,6 +588,12 @@ public class AxiomsList {
         if (!"!".equals(v.operation) || !"=".equals(v.right.operation) ||
                 !"'".equals(v.right.left.operation) || !"0".equals(v.right.right.operation))
             return false;
+
+
+        if(!v.right.left.right.equals(new Vertex("a")))
+            return false;
+
+
         return true;
     }
 
@@ -579,6 +605,14 @@ public class AxiomsList {
         if (!"=".equals(v.operation) || !"+".equals(v.left.operation) || !"'".equals(v.right.operation) ||
                 !"'".equals(v.left.right.operation) || !"+".equals(v.right.right.operation))
             return false;
+
+
+        if(!v.left.left.equals(new Vertex("a")))
+            return false;
+        if(!v.left.right.right.equals(new Vertex("b")))
+            return false;
+
+
         return (v.left.left.equals(v.right.right.left) && v.left.right.right.equals(v.right.right.right));
     }
 
@@ -588,6 +622,12 @@ public class AxiomsList {
             return false;
         if (!"=".equals(v.operation) || !"+".equals(v.left.operation) || !"0".equals(v.left.right.operation))
             return false;
+
+
+        if(!v.left.left.equals(new Vertex("a")))
+            return false;
+
+
         return (v.left.left.equals(v.right));
     }
 
@@ -597,6 +637,12 @@ public class AxiomsList {
             return false;
         if (!"=".equals(v.operation) || !"*".equals(v.left.operation) || !"0".equals(v.right.operation) || !"0".equals(v.left.right.operation))
             return false;
+
+
+        if(!v.left.left.equals(new Vertex("a")))
+            return false;
+
+
         return true;
     }
 
@@ -608,6 +654,14 @@ public class AxiomsList {
         if (!"=".equals(v.operation) || !"*".equals(v.left.operation) || !"+".equals(v.right.operation) ||
                 !"'".equals(v.left.right.operation) || !"*".equals(v.right.left.operation))
             return false;
+
+
+        if(!v.left.left.equals(new Vertex("a")))
+            return false;
+        if(!v.left.right.right.equals(new Vertex("b")))
+            return false;
+
+
         return (v.left.left.equals(v.right.left.left) && v.left.right.right.equals(v.right.left.right) && v.left.left.equals(v.right.right));
     }
 

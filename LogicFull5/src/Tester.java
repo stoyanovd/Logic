@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Tester {
 
-    static int mode = 2;
+    static int mode = 4;
 
     static boolean single = false;
 
@@ -81,6 +81,7 @@ public class Tester {
         f.get(2).add("tests3/axiom1.in");
         f.get(2).add("tests3/swap_follow.in");
         f.get(2).add("tests3/big_one_propose.in");
+        f.get(2).add("tests3/axiom1_4proposes.in");
 
         f.add(new ArrayList<String>());
         f.get(3).add("tests4/axiom.in");
@@ -93,8 +94,9 @@ public class Tester {
         f.add(new ArrayList<String>());
         f.get(4).add("tests5/induction.in");
         f.get(4).add("tests5/must-fail.in");
-        f.get(4).add("tests5/proof5.in");
+        //f.get(4).add("tests5/proof5.in");
         f.get(4).add("tests5/reflexive.in");
+        f.get(4).add("tests5/ax1.in");
     }
 
 }
